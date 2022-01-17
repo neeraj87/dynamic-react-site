@@ -6,6 +6,7 @@ import Footer from "../components/footer/Footer";
 import Div from "../components/containers/Div";
 import Article from "../components/containers/article/Article";
 import Fragment from "../components/containers/Fragment";
+import Span from "../components/containers/Span";
 import Anchor from "../components/Anchor";
 import Nav from "../components/Nav";
 import Heading1 from "../components/typography/Heading1";
@@ -19,6 +20,7 @@ const componentMap = {
     footer: Footer,
     div: Div,
     article: Article,
+    span: Span,
     fragment: Fragment,
     a: Anchor,
     nav: Nav,
