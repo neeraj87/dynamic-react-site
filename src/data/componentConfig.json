@@ -1,0 +1,168 @@
+[
+    {
+        "id": "fb1477a2-e934-45f2-9ed6-93ab4c0221c4",
+        "render": true,
+        "component": "header",
+        "styles": [
+            {
+                "name": "background-color",
+                "value": "#292c2f"
+            },
+            {
+                "name": "color",
+                "value": "#ffffff"
+            }
+        ],
+        "classes": [
+            "header-fixed"
+        ],
+        "children": [
+            {
+                "id": "a6551787-47e2-4ab3-8f56-7c3500688041",
+                "render": true,
+                "component": "div",
+                "styles": [],
+                "classes": [
+                    "header-limiter"
+                ],
+                "children": [
+                    {
+                        "id": "c6c509f7-b6d1-4204-a9fc-4afc9ce6826c",
+                        "render": true,
+                        "component": "h1",
+                        "styles":[],
+                        "classes": [],
+                        "children":[
+                            {
+                                "id": "6845fce2-97fd-4a44-9ab4-a56d0a818a0f",
+                                "render": true,
+                                "component": "a",
+                                "styles":[],
+                                "classes": [],
+                                "children":[
+                                    "Company",
+                                    {
+                                        "id": "02999d12-d3aa-4cf5-8870-05842d030f37",
+                                        "render": true,
+                                        "component": "span",
+                                        "styles":[],
+                                        "classes": [],
+                                        "children":[
+                                            "logo"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "ebed017a-ccb5-437e-8f78-2fe15871ff7c",
+                "render": true,
+                "component": "nav",
+                "styles": [],
+                "classes": [],
+                "children": [
+                    {
+                        "id": "f62563f0-4cd4-444a-9dcd-73f150be0257",
+                        "render": true,
+                        "component": "a",
+                        "styles":[],
+                        "classes": [],
+                        "children": "Home"
+                    },
+                    {
+                        "id": "2804c1a5-be1e-4838-82c4-ada87ceed6f3",
+                        "render": true,
+                        "component": "a",
+                        "styles":[],
+                        "classes": [],
+                        "children": "Blog"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "420d5fa4-6a21-4151-9038-524fceb71c53",
+        "render": true,
+        "component": "article",
+        "styles":[
+            {
+                "name": "background",
+                "value": "#e3e3e3"
+            }
+        ],
+        "classes": [],
+        "children":[
+            {
+                "id": "8710a9bb-6c3b-4913-82ee-bb2338a04b3c",
+                "render": true,
+                "component": "button",
+                "styles": [
+                    {
+                        "name": "backgroundColor",
+                        "value": "blue"
+                    }
+                ],
+                "classes": [],
+                "children": "push Me"
+            },
+            {
+                "id": "7d6b96dd-1625-4086-86f1-1566e5374721",
+                "render": true,
+                "component": "input",
+                "children": []
+            }
+        ]
+    },
+    {
+        "id": "02999d12-d3aa-4cf5-8870-05842d3443444",
+        "render": true,
+        "component": "footer",
+        "styles":[],
+        "classes": [],
+        "children": [
+            {
+                "id": "bd6f613d-61e3-49dc-bdf7-0d95c8228a4f",
+                "render": true,
+                "component": "div",
+                "styles": [
+                    {
+                        "name": "display",
+                        "value": "table-cell"
+                    },
+                    {
+                        "name": "vertical-align",
+                        "value": "middle"
+                    }
+                ],
+                "classes":[],
+                "children": [
+                    {
+                        "id": "e960f0ad-b2c5-4b0b-9ae0-0f6dd19ca27d",
+                        "render": true,
+                        "component": "small",
+                        "styles":[],
+                        "classes":[],
+                        "children": [
+                            "&copy;2017",
+                            {
+                                "id": "04fa3b1a-2fdd-4e55-9492-870d681187a4",
+                                "render": true,
+                                "component": "strong",
+                                "styles":[],
+                                "classes":[],
+                                "children": [
+                                    "Awesome Company"
+                                ]
+                            },
+                            ", All Rights Reserved"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
