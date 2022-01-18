@@ -40,14 +40,7 @@
                                 "styles":[],
                                 "classes": [],
                                 "children":[
-                                    {
-                                        "id": "953d6189-a76f-43f8-ac07-99ff77329d56",
-                                        "render": true,
-                                        "component": "span",
-                                        "styles":[],
-                                        "classes": [],
-                                        "children":"Company"
-                                    },
+                                    "Company",
                                     {
                                         "id": "02999d12-d3aa-4cf5-8870-05842d030f37",
                                         "render": true,
@@ -152,14 +145,7 @@
                         "styles":[],
                         "classes":[],
                         "children": [
-                            {
-                                "id": "3061c6d4-5726-41d9-be4c-36c075842b61",
-                                "render": true,
-                                "component": "span",
-                                "styles":[],
-                                "classes":[],
-                                "children": "&#169; 2017 "
-                            },
+                            "&#169; 2017 ",
                             {
                                 "id": "04fa3b1a-2fdd-4e55-9492-870d681187a4",
                                 "render": true,
@@ -168,14 +154,7 @@
                                 "classes":[],
                                 "children": "Awesome Company"
                             },
-                            {
-                                "id": "c1cfd0cd-f31f-488b-a53c-a19c4f01f405",
-                                "render": true,
-                                "component": "span",
-                                "styles":[],
-                                "classes":[],
-                                "children": ", All Rights Reserved"
-                            }                            
+                            ", All Rights Reserved"                          
                         ]
                     }
                 ]

@@ -45,7 +45,7 @@ function renderer(config) {
         if(config.children && config.children.length > 0) {
             for (let index = 0; index < config.children.length; index++) {
                 const child = config.children[index];
-                if(typeof config.children === "string") {
+                if(typeof child === "string") {
                     elementChildren.push(child);
                 } else {
                     elementChildren.push(renderer(child));
