@@ -53,17 +53,6 @@ function renderer(config) {
             }
         }
 
-        // config.children &&
-        //     (
-        //         typeof config.children === "string" 
-        //         ? config.children 
-        //         : config.children.map(c => renderer(c))
-        //     )
-
-        // if(config.component === "small") {
-        //     console.log(elementChildren);
-        // }
-
         return React.createElement(
             componentMap[config.component],
             {
